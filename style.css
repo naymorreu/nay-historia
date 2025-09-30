@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 :root{
+
     /* CSS HEX */
---carnation-pink: #ff99c8ff;
---lemon-chiffon: #fcf6bdff;
+--cravo-rosa: #ff99c8ff;
+--limao-chiffon: #fcf6bdff;
 --nyanza: #d0f4deff;
---uranian-blue: #a9def9ff;
+--azul-uranio: #a9def9ff;
+--titulo:  "Lora", serif;
+--texto: "Cormorant", serif;
+}
+
+body{ 
+    background-color: var(--cravo-rosa);
+    font-family: var(--texto);
+
+
 }
